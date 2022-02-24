@@ -1,13 +1,6 @@
 {
   "produit": [
     {
-      "id": "1",
-      "designation": "chaussures",
-      "prix": 30,
-      "qte": 3,
-      "description": "chaussures pour hommes"
-    },
-    {
       "id": "2",
       "designation": "veste",
       "prix": 130,
@@ -27,6 +20,13 @@
       "prix": 130,
       "qte": 4,
       "description": "Jupe pour filles"
+    },
+    {
+      "id": "8",
+      "designation": "chausure",
+      "qte": 8,
+      "prix": 86,
+      "description": "Chaussure rouge"
     }
   ]
 }

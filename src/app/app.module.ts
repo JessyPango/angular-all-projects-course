@@ -5,10 +5,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ListproduitComponent } from './produit/listproduit/listproduit.component';
+import { AjoutproduitComponent } from './produit/ajoutproduit/ajoutproduit.component';
+import { ModifproduitComponent } from './produit/modifproduit/modifproduit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListproduitComponent,
+    AjoutproduitComponent,
+    ModifproduitComponent
   ],
   imports: [
     BrowserModule,
