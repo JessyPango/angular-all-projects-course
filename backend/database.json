@@ -1,0 +1,32 @@
+{
+  "produit": [
+    {
+      "id": "1",
+      "designation": "chaussures",
+      "prix": 30,
+      "qte": 3,
+      "description": "chaussures pour hommes"
+    },
+    {
+      "id": "2",
+      "designation": "veste",
+      "prix": 130,
+      "qte": 4,
+      "description": "Veste pour hommes"
+    },
+    {
+      "id": "3",
+      "designation": "Robe",
+      "prix": 30,
+      "qte": 3,
+      "description": "Robe pour file"
+    },
+    {
+      "id": "5",
+      "designation": "jupe",
+      "prix": 130,
+      "qte": 4,
+      "description": "Jupe pour filles"
+    }
+  ]
+}
