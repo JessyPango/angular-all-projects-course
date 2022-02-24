@@ -12,6 +12,7 @@ import { ProduitComponent } from './modules/general/produit/produit.component';
 import { FormsModule } from '@angular/forms';
 import { LivreComponent } from './livre/livre.component';
 import { RetourLivreComponent } from './retour-livre/retour-livre.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { RetourLivreComponent } from './retour-livre/retour-livre.component';
     NotFoundComponent,
     ProduitComponent,
     LivreComponent,
-    RetourLivreComponent
+    RetourLivreComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

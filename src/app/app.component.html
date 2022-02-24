@@ -1,15 +1,6 @@
 <div>
-  <nav>
-    <ul>
-      <li><a routerLink="/">Home</a></li>
-      <li><a routerLink="/produits">Produits</a></li>
-      <li><a routerLink="/livres">Livres</a></li>
-      <li><a routerLink="/about">About</a></li>
-      <li><a routerLink="/contact">Contact</a></li>
-      <li><a routerLink="/signin">Signin</a></li>
-    </ul>
-  </nav>
-  <main>
+  <app-menu></app-menu>
+  <main style="margin-top: 100px;">
     <router-outlet></router-outlet> <!-- Ou afficher le contenu charger -->
   </main>
 </div>
