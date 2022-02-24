@@ -10,6 +10,8 @@ import { SigninComponent } from './modules/general/signin/signin.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 import { ProduitComponent } from './modules/general/produit/produit.component';
 import { FormsModule } from '@angular/forms';
+import { LivreComponent } from './livre/livre.component';
+import { RetourLivreComponent } from './retour-livre/retour-livre.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FormsModule } from '@angular/forms';
     AboutComponent,
     SigninComponent,
     NotFoundComponent,
-    ProduitComponent
+    ProduitComponent,
+    LivreComponent,
+    RetourLivreComponent
   ],
   imports: [
     BrowserModule,
