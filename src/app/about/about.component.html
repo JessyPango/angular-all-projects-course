@@ -1,1 +1,17 @@
-<p>about works!</p>
+<div class="form-group">
+    <label for=""> Message</label>
+    <input type="text" [(ngModel)]="comment.message" /> <!-- Two Way Bindings-->
+    <button class="btn btn-primary" type="submit" (click)="addComment()" [disabled]="newComment"> <!-- Event + Property Binding-->
+        Add comment
+    </button>
+</div>
+
+<div *ngIf="comments.length>0">
+    <h3>Liste des messages : </h3>
+    <ul class="list-group">
+        <li *ngFor="let c of comments" class="list-group-item">
+            <b>{{c.message}} <!--String Interpolation --></b>: c'est le message n° {{c.id}} publié à
+            <span class="badge">{{c.date|date:'HH:mm:ss'}}</span>
+        </li>
+    </ul>
+</div>

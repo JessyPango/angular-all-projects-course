@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContactsComponent } from './contacts/contacts.component';
   ], //  classes représentant le module. 
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ], // Pour importer d'autre modules
   providers: [], // Pour déclarer les fabriques de services
   bootstrap: [AppComponent] // Pour declarer le composant Racine du module
